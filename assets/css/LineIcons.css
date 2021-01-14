@@ -23,7 +23,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.lni lni-pallet:before {
+  content: "\e900";   
+}
 .lni-add-file:before {
   content: "\e900";
 }
