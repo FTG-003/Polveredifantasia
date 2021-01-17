@@ -15,5 +15,5 @@ $(function() {
           "showMethod": "fadeIn",
           "hideMethod": "fadeOut"
           }
-       toastr.info("<p'>Cookies help us deliver our services. By using our services, you agree to our use of cookies. <a href='#' target='_new'>More details</a></p>");
+       toastr.info("<p'>Non utilzziamo cookies. Continua a leggere tranquillamente ;) <a href='#' target='_new'>More details</a></p>");
       });
