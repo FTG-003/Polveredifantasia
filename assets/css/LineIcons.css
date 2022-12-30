@@ -1223,6 +1223,9 @@
 .lni-telegram:before {
   content: "\ea79";
 }
+.lni-telegram-original::before {
+  content: "\ebcb";
+}
 .lni-twitch:before {
   content: "\ea7a";
 }

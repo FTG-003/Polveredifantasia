@@ -973,6 +973,12 @@ p {
   .single-team .team-content .sub-title {
     font-size: 14px;
     color: #646464; }
+  .sub-title-libri {
+    font-size: 15px;
+    color: #646464;
+    padding-top: 10px;
+    text-align:left;
+        }
   .single-team .team-content .social {
     margin-top: -35px;
     opacity: 0;
