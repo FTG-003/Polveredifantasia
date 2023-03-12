@@ -13,9 +13,9 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   font-weight: normal;
   font-style: normal;
   color: #646464; }
@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #121619;
   margin: 0px; }
@@ -124,7 +124,7 @@ p {
   -webkit-box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
   -moz-box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
   box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase; }
   .main-btn i {
     margin-right: 5px; }
@@ -144,6 +144,7 @@ p {
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
+  font-weight: 700;
   color: #EB3656;
   text-transform: uppercase; }
   @media (max-width: 767px) {
@@ -152,6 +153,7 @@ p {
 
 .section-title .title {
   font-size: 35px;
+  font-weight: 700;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .section-title .title {
@@ -595,8 +597,8 @@ p {
         margin: 5px 0; } }
     .navbar .navbar-nav .nav-item a {
       color: #646464;
-      font-family: 'Hind', sans-serif;
-      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
       text-transform: uppercase;
       font-weight: 700;
       -webkit-transition: all 0.4s ease-out 0s;
@@ -640,13 +642,15 @@ p {
     z-index: 9; }
     .header-banner .banner-content .sub-title {
       font-size: 24px;
+      font-weight: bold;
       color: #EB3656;
       text-transform: uppercase; }
       @media (max-width: 767px) {
         .header-banner .banner-content .sub-title {
           font-size: 18px; } }
     .header-banner .banner-content .banner-title {
-      font-size: 60px; }
+      font-size: 60px;
+    font-weight:bold; }
       .header-banner .banner-content .banner-title span {
         color: #EB3656; }
       @media (max-width: 767px) {
@@ -654,9 +658,9 @@ p {
           font-size: 38px; } }
     .header-banner .banner-content .banner-contact {
       position: relative;
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 600;
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Poppins', sans-serif;
       color: #EB3656;
       text-transform: uppercase;
       margin-left: 70px; }
@@ -782,14 +786,17 @@ p {
 
 .about-content .about-welcome {
   font-size: 24px;
+  font-weight: 700;
   color: #EB3656;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .about-content .about-welcome {
-      font-size: 18px; } }
+      font-size: 18px;
+    font-weight: bold; } }
 
 .about-content .about-title {
   font-size: 35px;
+  font-weight: 700;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .about-content .about-title {
@@ -828,7 +835,7 @@ p {
   .single-services .services-content .services-title {
     font-size: 22px;
     font-weight: 600;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
@@ -889,7 +896,7 @@ p {
     .single-project .project-content .project-title {
       font-size: 22px;
       font-weight: 600;
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Poppins', sans-serif;
       position: relative;
       color: #fff;
       margin-left: 60px; }
@@ -959,10 +966,10 @@ p {
     .single-team .team-content {
       padding: 30px 0; } }
   .single-team .team-content .team-name a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color: #121619;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
@@ -971,7 +978,7 @@ p {
     .single-team .team-content .team-name a:hover {
       color: #EB3656; }
   .single-team .team-content .sub-title {
-    font-size: 14px;
+    font-size: 16px;
     color: #646464; }
   .sub-title-libri {
     font-size: 15px;
@@ -1088,16 +1095,16 @@ p {
 .single-testimonial .testimonial-content p {
   font-size: 18px;
   color: #fff;
-  font-family: 'Hind', sans-serif; }
+  font-family: 'Poppins', sans-serif;}
 
 .single-testimonial .testimonial-content .testimonial-name {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 600; }
 
 .single-testimonial .testimonial-content .sub-title {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #fff; }
 
@@ -1157,7 +1164,7 @@ p.form-message.error {
     border-radius: 5px;
     padding: 0 30px;
     background-color: #fff;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px; }
   .contact-form .single-form textarea {
     height: 160px;
@@ -1272,7 +1279,7 @@ p.form-message.error {
 
 .f-title .title {
   font-size: 22px;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600; }
 
 .footer-link ul li {
@@ -1280,7 +1287,7 @@ p.form-message.error {
   .footer-link ul li a {
     font-size: 16px;
     color: #646464;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
