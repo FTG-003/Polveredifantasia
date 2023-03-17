@@ -1,7 +1,5 @@
 
 
-    CSS INDEX
-    ===================
 
     01. Theme default CSS
 	02. Header
@@ -143,7 +141,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
   color: #EB3656;
   text-transform: uppercase; }
