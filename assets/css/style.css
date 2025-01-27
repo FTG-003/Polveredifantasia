@@ -141,13 +141,13 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   color: #EB3656;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .section-title .sub-title {
-      font-size: 16px; } }
+      font-size: 24px; } }
 
 .section-title .title {
   font-size: 35px;
@@ -789,7 +789,7 @@ p {
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .about-content .about-welcome {
-      font-size: 18px;
+      font-size: 24px;
     font-weight: bold; } }
 
 .about-content .about-title {
